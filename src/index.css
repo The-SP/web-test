@@ -1,7 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #e6fcf7;
 }
 
 .job-item {
   background-color: white;
+}
+
+.job-item:hover {
+  border-left: 3px solid lightseagreen;
+}
+
+.active-keyword-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e5fcf7;
+  border: 1px solid #28a745;
+  border-radius: 4px;
+}
+
+.del-btn {
+  margin-left: 5px;
+  padding: 0 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+.del-btn:hover {
+  background: black;
 }
